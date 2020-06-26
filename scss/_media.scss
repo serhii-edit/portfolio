@@ -1,0 +1,77 @@
+
+// For header and header-hero
+@media screen and (max-width: 660px) {
+  .header-hero__block {
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+  .header-hero__subtitle {
+    text-align: center;
+    font-size: 25px;
+    // color: #ffaa00;
+    color: #fff;
+    padding: 3px;
+    background-color: rgba(228, 175, 0, 0.4);
+  }
+  .header-hero__col {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .header-hero__title {
+    font-size: 30px;
+    color: #fff;
+    background-color: orange;
+    opacity: 0.7;
+    padding: 5px;
+  }
+  .header-hero__button {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .header {
+    margin-bottom: 90px;
+  }
+  .header__right {
+    flex-direction: column;
+    align-items: unset;
+  }
+  .header__link {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .header__content {
+    padding-top: 20px;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .header-hero__title {
+    font-size: 22px;
+  }
+  .header-hero__subtitle {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .header-hero__title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .header-hero__title {
+    font-size: 20px;
+  }
+  .header__title {
+    font-size: 17px;
+  }
+  .header__subtitle {
+    font-size: 17px;
+  }
+}
+
+// (end) header header-hero
