@@ -1,0 +1,37 @@
+.hero_bg {
+  background: #000000e0;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #fff;
+}
+
+.about-me__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.about-me__picture {
+  width: 450px;
+}
+
+.about-me__img {
+  width: 100%;
+}
+
+.about-me__wrap-cols {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me__cols {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-me__col {
+  display: flex;
+  flex-direction: row;
+}
