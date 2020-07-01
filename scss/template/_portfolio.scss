@@ -5,18 +5,56 @@
   min-height: 100vh;
 }
 
+.portfolio__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .portfolio__slide {
   width: 380px;
   min-height: 280px;
+  cursor: pointer;
+}
+
+.portfolio__slide:hover {
+  background: rgb(69, 199, 91);
+  opacity: 1;
+}
+
+.portfolio__slide-1 {
   background: url("../img/portfolio/project-1.png") no-repeat center;
   background-size: cover;
-  background: rgba(123, 123, 123, 0.75);
+  width: 100%;
+  min-height: 280px;
+  transition: 0.3s;
 }
 
-.portfolio__img {
-  // background: url("../img/portfolio/project-1.png") no-repeat center;
-  // background-size: cover;
-  // background: rgba(123, 123, 123, 0.75);
-  // width: 100%;
+
+.portfolio__slide-2 {
+  background: url("../img/algotrading.png") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  min-height: 280px;
 }
 
+.portfolio__slide-3 {
+  background: url("../../img/repair-design.png") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  min-height: 280px;
+}
+
+.portfolio__slide-4 {
+  background: url("../img/portfolio/project-1.png") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  min-height: 280px;
+}
+
+.portfolio__slide-1:hover, .portfolio__slide-2:hover,
+.portfolio__slide-3:hover, .portfolio__slide-4:hover {
+  opacity: 0.4;
+  background: url("../img/loop.png") no-repeat center;
+  background-color: contain;
+}
