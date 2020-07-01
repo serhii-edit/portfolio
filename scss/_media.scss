@@ -1,4 +1,6 @@
 
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
 // For header and header-hero
 @media screen and (max-width: 660px) {
   .header-hero__block {
@@ -75,3 +77,125 @@
 }
 
 // (end) header header-hero
+
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+// section-(about-me) start
+
+@media screen and (max-width: 1230px) {
+  .about-me__picture {
+    margin-right: 60px;
+  }
+  .about-me__col {
+    margin-right: 35px;
+  }
+  .about-me__icon {
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 1135px) {
+  .about-me__col-subtitle {
+    max-width: 160px;
+  }
+  .about-me__subtitle {
+    max-width: 430px;
+  }
+  .about-me__col-title {
+    font-size: 20px;
+  }
+  .about-me__subtitle {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .about-me__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-me__picture {
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+  .about-me__title {
+    text-align: center;
+  }
+  .about-me__subtitle {
+    text-align: center;
+  }
+  .about-me__col-subtitle {
+    max-width: unset;
+  }
+  .about-me__head {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+  .about-me__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-me__icon {
+    margin-right: 27px;
+  }
+  .about-me__col {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .about-me__cols {
+    flex-direction: column;
+    // align-items: center;
+  }
+  .about-me__icon  {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .about-me__col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-right: 0;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .about-me__col:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .about-me__img {
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .about-me__img {
+    width: unset;
+    width: 100%;
+    max-width: 290px;
+    max-width: 290px;
+  }
+}
+
+// section-(about-me) end
+
+
+// xxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+// section-(resume + resume-1) start
+
+@media screen and (max-width: 457px) {
+  .resume__subtitle {
+    font-size: 16px;
+    max-width: 320px;
+  }
+}

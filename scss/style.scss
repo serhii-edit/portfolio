@@ -1,5 +1,7 @@
 @import "normalize"; 
 
+@import "fonts"; 
+
 @import "setting";
 
 @import "grid";
@@ -9,5 +11,11 @@
 @import "template/projects";
 
 @import "template/about-me";
+
+@import "template/resume";
+
+@import "swiper";
+
+@import "template/portfolio";
 
 @import "media";
