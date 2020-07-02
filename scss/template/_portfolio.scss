@@ -18,8 +18,17 @@
 }
 
 .portfolio__slide:hover {
-  background: rgb(69, 199, 91);
+  // background: rgba(0, 255, 64, 1);
+  background: #dbc714a8;
   opacity: 1;
+  .portfolio__slide-loop {
+    background: url("../img/loop.png") no-repeat center;
+    background-size: contain;
+    height: 49px;
+    width: 49px;
+    z-index: 20;
+    opacity: 1;
+}
 }
 
 .portfolio__slide-1 {
@@ -28,6 +37,10 @@
   width: 100%;
   min-height: 280px;
   transition: 0.3s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -36,6 +49,10 @@
   background-size: cover;
   width: 100%;
   min-height: 280px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .portfolio__slide-3 {
@@ -43,6 +60,10 @@
   background-size: cover;
   width: 100%;
   min-height: 280px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .portfolio__slide-4 {
@@ -50,11 +71,21 @@
   background-size: cover;
   width: 100%;
   min-height: 280px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .portfolio__slide-1:hover, .portfolio__slide-2:hover,
 .portfolio__slide-3:hover, .portfolio__slide-4:hover {
-  opacity: 0.4;
-  background: url("../img/loop.png") no-repeat center;
-  background-color: contain;
+  opacity: 0.5;
 }
+
+// .portfolio__slider {
+//   background: url("../img/loop.png") no-repeat center;
+//   background-size: contain;
+//   height: 49px;
+//   width: 49px;
+//   opacity: 1;
+// }

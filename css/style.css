@@ -614,39 +614,240 @@ a {
   cursor: pointer; }
 
 .portfolio__slide:hover {
-  background: #45c75b;
+  background: #dbc714a8;
   opacity: 1; }
+  .portfolio__slide:hover .portfolio__slide-loop {
+    background: url("../img/loop.png") no-repeat center;
+    background-size: contain;
+    height: 49px;
+    width: 49px;
+    z-index: 20;
+    opacity: 1; }
 
 .portfolio__slide-1 {
   background: url("../img/portfolio/project-1.png") no-repeat center;
   background-size: cover;
   width: 100%;
   min-height: 280px;
-  transition: 0.3s; }
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .portfolio__slide-2 {
   background: url("../img/algotrading.png") no-repeat center;
   background-size: cover;
   width: 100%;
-  min-height: 280px; }
+  min-height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .portfolio__slide-3 {
   background: url("../../img/repair-design.png") no-repeat center;
   background-size: cover;
   width: 100%;
-  min-height: 280px; }
+  min-height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .portfolio__slide-4 {
   background: url("../img/portfolio/project-1.png") no-repeat center;
   background-size: cover;
   width: 100%;
-  min-height: 280px; }
+  min-height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .portfolio__slide-1:hover, .portfolio__slide-2:hover,
 .portfolio__slide-3:hover, .portfolio__slide-4:hover {
-  opacity: 0.4;
-  background: url("../img/loop.png") no-repeat center;
-  background-color: contain; }
+  opacity: 0.5; }
+
+.feedback {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.feedback__wrap-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.feedback__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.feedbacl__title {
+  text-align: center;
+  color: #566366;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 45px; }
+
+.feedback__content-img {
+  width: 300px;
+  height: 200px;
+  background-color: #000;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-right: 35px; }
+
+.feedback__content-stars {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  margin-left: 10px; }
+
+.feedback__content-star {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px; }
+
+.feedback__content-info {
+  display: flex;
+  flex-direction: column; }
+
+.feedback__content-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  margin-bottom: 15px; }
+
+.feedback__content-inst {
+  font-size: 17px;
+  color: #148eff;
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-style: normal; }
+
+.feedback__content-msm {
+  color: #000;
+  font-size: 18px;
+  font-weight: normal;
+  max-width: 350px;
+  margin-bottom: 15px; }
+
+.feedback__content-group {
+  color: #1890FF;
+  font-size: 18px;
+  font-weight: 500; }
+
+.contact-me {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #22252C; }
+
+.contact-me__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.contact-me__form {
+  padding: 45px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #413d3d;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+
+.contact-form__title {
+  margin: 0;
+  text-align: center;
+  color: #02cfb4;
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 0.9px;
+  margin-bottom: 50px; }
+
+.contact-form__wrap-all {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px; }
+
+.contact-me__left {
+  margin-right: 50px; }
+
+.contact-form__wrap-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px; }
+
+.contact-form__wrap-input:last-child {
+  margin-bottom: 0; }
+
+.contact-form__label {
+  color: #b4b3b3;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 5px; }
+
+.contact-form__input::placeholder {
+  color: #fff; }
+
+.contact-form__input {
+  font-size: 17px;
+  color: #fff;
+  font-weight: 500;
+  max-width: 200px;
+  padding: 5px;
+  padding-left: 0;
+  background-color: transparent;
+  outline: none !important;
+  outline-offset: none !important;
+  border: none;
+  border: none;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #fff; }
+
+.contact-form__input:focus {
+  border: none;
+  border: 1px solid #02cfb4; }
+
+.contact-me__right-sms {
+  width: 350px;
+  height: 99%;
+  background-color: transparent;
+  outline: none !important;
+  outline-offset: none !important;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500; }
+
+.contact-me__right-sms:focus {
+  border: none;
+  border: 1px solid #02cfb4; }
+
+.contact-me__right-sms::placeholder {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500; }
+
+.contact-form__button {
+  border: none;
+  background-color: transparent;
+  color: #02cfb4;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  font-size: 25px;
+  border: 1px solid #02cfb4;
+  padding: 8px 20px;
+  cursor: pointer;
+  transition: 0.3s; }
+
+.contact-form__button:hover {
+  background-color: #02cfb4;
+  color: #fff; }
 
 @media screen and (max-width: 660px) {
   .header-hero__block {
@@ -776,3 +977,28 @@ a {
   .resume__subtitle {
     font-size: 16px;
     max-width: 320px; } }
+
+@media screen and (max-width: 615px) {
+  .feedback__content-img {
+    margin-bottom: 35px;
+    margin-right: 0;
+    width: none;
+    max-width: 280px; }
+  .feedback__content {
+    flex-direction: column;
+    align-items: center; }
+  .feedback__content-title {
+    text-align: center; }
+  .feedback__content-inst {
+    text-align: center; }
+  .feedback__content-msm {
+    text-align: center;
+    max-width: 320px; }
+  .feedback__content-group {
+    text-align: center; } }
+
+@media screen and (max-width: 315px) {
+  .feedback__content-img {
+    width: none;
+    max-width: none;
+    width: 90%; } }

@@ -199,3 +199,43 @@
     max-width: 320px;
   }
 }
+
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+// media section (feedback) start
+
+@media screen and (max-width: 615px) {
+  .feedback__content-img {
+    margin-bottom: 35px;
+    margin-right: 0;
+    width: none;
+    max-width: 280px;
+  }
+  .feedback__content {
+    flex-direction: column;
+    align-items: center
+  }
+  .feedback__content-title {
+    text-align: center;
+  }
+  .feedback__content-inst {
+    text-align: center;
+  }
+  .feedback__content-msm {
+    text-align: center;
+    max-width: 320px;
+  }
+  .feedback__content-group {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 315px) {
+  .feedback__content-img {
+    width: none;
+    max-width: none;
+    width: 90%;
+  }
+}

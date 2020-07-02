@@ -1,0 +1,142 @@
+.contact-me {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #22252C;
+}
+
+.contact-me__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-me__form {
+  padding: 45px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  // border: 1px solid red;
+  background-color: #413d3d;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.contact-form__title {
+  margin: 0;
+  text-align: center;
+  color: #02cfb4;
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 0.9px;
+  margin-bottom: 50px;
+}
+
+.contact-form__wrap-all {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+  // align-items: center;
+}
+
+.contact-me__left {
+  margin-right: 50px;
+}
+
+// input name
+
+
+.contact-form__wrap-input {
+  display: flex;
+  flex-direction: column;
+  // margin-right: 30px;
+  margin-bottom: 40px;
+}
+
+.contact-form__wrap-input:last-child {
+  margin-bottom: 0;
+}
+
+.contact-form__label {
+  color: rgb(180, 179, 179);
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.contact-form__input::placeholder {
+  color: #fff;
+}
+
+.contact-form__input {
+  font-size: 17px;
+  color: #fff;
+  font-weight: 500;
+  max-width: 200px;
+  padding: 5px;
+  padding-left: 0;
+  background-color: transparent;
+
+  outline: none !important;
+  outline-offset: none !important;
+  border: none;
+
+  border: none;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #fff;
+
+}
+
+.contact-form__input:focus {
+  border: none;
+  border: 1px solid #02cfb4;
+}
+
+.contact-me__right {
+
+}
+
+.contact-me__right-sms {
+  width: 350px;
+  height: 99%;
+  background-color: transparent;
+  outline: none !important;
+  outline-offset: none !important;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.contact-me__right-sms:focus {
+  border: none;
+  border: 1px solid #02cfb4;
+}
+
+.contact-me__right-sms::placeholder {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.contact-form__button {
+  border: none;
+  background-color: transparent;
+  color: #02cfb4;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  font-size: 25px;
+  border: 1px solid #02cfb4;
+  padding: 8px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form__button:hover {
+  background-color: #02cfb4;
+  color: #fff;
+}
