@@ -239,3 +239,162 @@
     width: 90%;
   }
 }
+
+// end 
+
+
+// xxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+@media screen and (max-width: 1170px) {
+  .contact-me__right-sms {
+    width: 200px;
+    // font-size: 13px;
+  }
+  .contact-form__input {
+    font-size: 14px;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .contact-me__content {
+    justify-content: none;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-ways__title {
+    text-align: center;
+  }
+  .contact-ways__subtitle {
+    text-align: center;
+  }
+  .contact-ways {
+    margin-right: 0;
+    margin-bottom: 40px;
+    // border: 1px solid red;
+  }
+  .contact-ways__address {
+    align-items: center;
+  }
+  .contact-ways__phone-m {
+    margin-bottom: 20px;
+  }
+  .contact-ways__btns {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .contact-ways__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-me__form {
+    background-color: unset;
+    padding-left: 0;
+    padding-right: 0;
+    // border: 1px solid red;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .contact-me__left {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  .contact-form__wrap-all {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .contact-ways__subtitle {
+    font-size: 15px;
+  }
+  .contact-ways__btn {
+    font-size: 16px;
+  }
+  .contact-ways__phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-ways__white {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+
+@media screen and (max-width: 345px) {
+  .all-payment__title {
+    font-size: 24px !important;
+  }
+  .all-payment__subtitle {
+    max-width: 280px !important;
+  }
+}
+
+// end 
+
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+@media screen and (max-width: 700px) {
+  .footer__content {
+    justify-content: space-between;
+  }
+  .footer__links {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__link-m {
+    margin-right: 0;
+    margin-bottom: 8px; 
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .footer__content {
+    justify-content: unset;
+    flex-direction: column;
+  }
+  .footer__wrap-address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .footer__links {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+  }
+  .footer__link-m {
+    margin-right: 15px;
+  }
+  .footer__address-m {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .all-payment__title {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 416px) {
+  .footer__copyright-serhii-yakymenko {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 364px) {
+  .footer__copyright-serhii-yakymenko {
+    font-size: 12px;
+  }
+}

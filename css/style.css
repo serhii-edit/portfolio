@@ -327,6 +327,9 @@ a {
   text-decoration: none;
   font-style: normal; }
 
+.text-important {
+  color: tomato; }
+
 .container {
   margin: 0 auto;
   max-width: 1200px;
@@ -746,8 +749,8 @@ a {
 .contact-me__content {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center; }
+  justify-content: space-between;
+  align-items: flex-start; }
 
 .contact-me__form {
   padding: 45px;
@@ -848,6 +851,113 @@ a {
 .contact-form__button:hover {
   background-color: #02cfb4;
   color: #fff; }
+
+.contact-ways {
+  margin-right: 75px; }
+
+.contact-ways__content {
+  color: #fff; }
+
+.contact-ways__title {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  text-align: left; }
+
+.contact-ways__subtitle {
+  color: #919191;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 25px; }
+
+.contact-ways__address {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px; }
+
+.contact-ways__tag-address {
+  margin-bottom: 30px; }
+
+.contact-ways__phone-m {
+  margin-bottom: 10px; }
+
+.contact-ways__white {
+  color: #fff;
+  margin-right: 20px; }
+
+.contact-ways__phone {
+  color: #919191; }
+
+.contact-ways__btns {
+  display: flex;
+  flex-direction: row;
+  color: #fff; }
+
+.contact-ways__btn {
+  margin-right: 20px;
+  color: #ad4141;
+  font-size: 17px;
+  text-align: left; }
+
+.contact-ways__btn:last-child {
+  margin-right: 0; }
+
+.all-payment__subtitle {
+  text-align: center;
+  margin: 0 auto !important;
+  margin-bottom: 0;
+  color: #787878 !important; }
+
+.footer {
+  background: #000;
+  padding-top: 50px;
+  padding-bottom: 5px; }
+
+.footer__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 30px; }
+
+.footer__address {
+  display: flex;
+  flex-direction: column;
+  color: #8d99ae;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal; }
+
+.footer__address-m {
+  margin-bottom: 10px; }
+
+.footer__address-click {
+  color: #fff;
+  transition: 0.3s; }
+
+.footer__address-click:hover {
+  color: #02cfb4;
+  font-size: 16px; }
+
+.footer__break-shape {
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  margin-bottom: 20px; }
+
+.footer__copyright {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px; }
+
+.footer__copyright-serhii-yakymenko {
+  text-align: center;
+  display: inline-block;
+  text-align: center;
+  color: #919191; }
 
 @media screen and (max-width: 660px) {
   .header-hero__block {
@@ -1002,3 +1112,104 @@ a {
     width: none;
     max-width: none;
     width: 90%; } }
+
+@media screen and (max-width: 1170px) {
+  .contact-me__right-sms {
+    width: 200px; }
+  .contact-form__input {
+    font-size: 14px;
+    width: 150px; } }
+
+@media screen and (max-width: 920px) {
+  .contact-me__content {
+    justify-content: none;
+    flex-direction: column;
+    align-items: center; }
+  .contact-ways__title {
+    text-align: center; }
+  .contact-ways__subtitle {
+    text-align: center; }
+  .contact-ways {
+    margin-right: 0;
+    margin-bottom: 40px; }
+  .contact-ways__address {
+    align-items: center; }
+  .contact-ways__phone-m {
+    margin-bottom: 20px; }
+  .contact-ways__btns {
+    text-align: center;
+    margin: 0 auto; }
+  .contact-ways__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .contact-me__form {
+    background-color: unset;
+    padding-left: 0;
+    padding-right: 0; } }
+
+@media screen and (max-width: 475px) {
+  .contact-me__left {
+    margin-right: 0;
+    margin-bottom: 40px; }
+  .contact-form__wrap-all {
+    flex-direction: column; } }
+
+@media screen and (max-width: 320px) {
+  .contact-ways__subtitle {
+    font-size: 15px; }
+  .contact-ways__btn {
+    font-size: 16px; }
+  .contact-ways__phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .contact-ways__white {
+    margin-right: 0;
+    margin-bottom: 10px; } }
+
+@media screen and (max-width: 345px) {
+  .all-payment__title {
+    font-size: 24px !important; }
+  .all-payment__subtitle {
+    max-width: 280px !important; } }
+
+@media screen and (max-width: 700px) {
+  .footer__content {
+    justify-content: space-between; }
+  .footer__links {
+    display: flex;
+    flex-direction: column; }
+  .footer__link-m {
+    margin-right: 0;
+    margin-bottom: 8px; } }
+
+@media screen and (max-width: 430px) {
+  .footer__content {
+    justify-content: unset;
+    flex-direction: column; }
+  .footer__wrap-address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px; }
+  .footer__links {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row; }
+  .footer__link-m {
+    margin-right: 15px; }
+  .footer__address-m {
+    text-align: center; } }
+
+@media screen and (max-width: 365px) {
+  .all-payment__title {
+    font-size: 26px; } }
+
+@media screen and (max-width: 416px) {
+  .footer__copyright-serhii-yakymenko {
+    font-size: 14px; } }
+
+@media screen and (max-width: 364px) {
+  .footer__copyright-serhii-yakymenko {
+    font-size: 12px; } }
