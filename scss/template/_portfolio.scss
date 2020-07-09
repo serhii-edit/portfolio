@@ -2,7 +2,9 @@
   background: url("../img/slider-bg.jpg") no-repeat center;
   background-size: cover;
   width: 100%;
-  min-height: 100vh;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  // min-height: 100vh;
 }
 
 .portfolio__flex {
@@ -89,3 +91,61 @@
 //   width: 49px;
 //   opacity: 1;
 // }
+
+// paginations 
+
+// interface
+.swiper-pagination-bullet {
+  display: inline-block;
+  border-radius: unset;
+  background-color: unset;
+  width: unset;
+  height: unset;
+  opacity: 1;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 30px !important;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.swiper-pagination-bullet:last-child {
+  margin-right: 0 !important;
+}
+
+.swiper-pagination-bullet {
+  padding-bottom: 3px;
+  border-bottom: 2px solid transparent;
+  transition: 0.3s;
+}
+
+.swiper-pagination-bullet:hover {
+  border-bottom: 2px solid #fff;
+  color: #02cfb4;
+}
+
+.swiper-pagination-bullet-active {
+  color: #02cfb4;
+}
+
+.swiper-pagination-bullet[aria-label="Go to slide 1"]::after {
+  content: "Landing pages";
+}
+
+.swiper-pagination-bullet[aria-label="Go to slide 2"]::after {
+  content: "Interten Stores";
+}
+
+.swiper-pagination-bullet[aria-label="Go to slide 3"]::after {
+  content: "Commersial Websites";
+}
+
+.swiper-container {
+  padding-top: 70px;
+}
+
+.swiper-pagination-bullets {
+  top: 0;
+  bottom: uset;
+}
