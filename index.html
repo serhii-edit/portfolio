@@ -86,7 +86,7 @@
       </div>
       <!-- /.header-hero__block -->
 
-      <a href="#" class="header-hero__button">
+      <a href="#project-link" class="header-hero__button">
         View Portfolio
       </a>
 
@@ -240,7 +240,7 @@
           Projects sorted on sections.
         </p>
 
-        <a target="_blank" href="https://docs.google.com/document/d/1fCnu1QgeB9NROChE-XVAZgVmMTo1YeeYOxnWpeNX2xM/edit?usp=sharing" class="resume__button resume-1__button">
+        <a href="#project-link" class="resume__button resume-1__button">
           View Projects
         </a>
 
@@ -251,7 +251,7 @@
   </section>
   <!-- /.resume resume_edit -->
 
-  <section class="portfolio portfolio__flex">
+  <section class="portfolio portfolio__flex" id="project-link">
     <div class="container">
 
       <!-- Swiper -->
@@ -264,103 +264,103 @@
         </div>
       </div>
       
-      <div class="swiper-slide portfolio__slide">
+      <div class="swiper-slide portfolio__slide" data-toggle="modal">
         <div class="portfolio__slide-2">
           <div class="portfolio__slide-loop"></div>
         </div>
       </div>
 
-      <div class="swiper-slide portfolio__slide">
+      <div class="swiper-slide portfolio__slide" data-toggle="modal">
         <div class="portfolio__slide-3">
           <div class="portfolio__slide-loop"></div>
         </div>
       </div>
 
-      <div class="swiper-slide portfolio__slide">
+      <div class="swiper-slide portfolio__slide" data-toggle="modal">
         <div class="portfolio__slide-3">
           <div class="portfolio__slide-loop"></div>
         </div>
       </div>
 
-      <div class="swiper-slide portfolio__slide">
+      <div class="swiper-slide portfolio__slide" data-toggle="modal">
         <div class="portfolio__slide-3">
           <div class="portfolio__slide-loop"></div>
         </div>
       </div>
 
-      <div class="swiper-slide portfolio__slide">
+      <div class="swiper-slide portfolio__slide" data-toggle="modal">
         <div class="portfolio__slide-3">
           <div class="portfolio__slide-loop"></div>
         </div>
       </div>
 
-      <div class="swiper-slide portfolio__slide">
+      <div class="swiper-slide portfolio__slide" data-toggle="modal">
         <div class="portfolio__slide-3">
           <div class="portfolio__slide-loop"></div>
         </div>
       </div>
 
-      <div class="swiper-slide portfolio__slide">
+      <div class="swiper-slide portfolio__slide" data-toggle="modal">
         <div class="portfolio__slide-3">
           <div class="portfolio__slide-loop"></div>
         </div>
       </div>
 
-      <div class="swiper-slide portfolio__slide">
+      <div class="swiper-slide portfolio__slide" data-toggle="modal">
         <div class="portfolio__slide-3">
           <div class="portfolio__slide-loop"></div>
         </div>
       </div>
 
-      <div class="swiper-slide portfolio__slide">
+      <div class="swiper-slide portfolio__slide" data-toggle="modal">
         <div class="portfolio__slide-3">
           <div class="portfolio__slide-loop"></div>
         </div>
       </div>
 
-      <div class="swiper-slide portfolio__slide">
+      <div class="swiper-slide portfolio__slide" data-toggle="modal">
         <div class="portfolio__slide-3">
           <div class="portfolio__slide-loop"></div>
         </div>
       </div>
 
-      <div class="swiper-slide portfolio__slide">
+      <div class="swiper-slide portfolio__slide" data-toggle="modal">
         <div class="portfolio__slide-3">
           <div class="portfolio__slide-loop"></div>
         </div>
       </div>
 
-      <div class="swiper-slide portfolio__slide">
+      <div class="swiper-slide portfolio__slide" data-toggle="modal">
         <div class="portfolio__slide-3">
           <div class="portfolio__slide-loop"></div>
         </div>
       </div>
 
-      <div class="swiper-slide portfolio__slide">
+      <div class="swiper-slide portfolio__slide" data-toggle="modal">
         <div class="portfolio__slide-3">
           <div class="portfolio__slide-loop"></div>
         </div>
       </div>
 
-      <div class="swiper-slide portfolio__slide">
+      <div class="swiper-slide portfolio__slide" data-toggle="modal">
         <div class="portfolio__slide-3">
           <div class="portfolio__slide-loop"></div>
         </div>
       </div>
 
-      <div class="swiper-slide portfolio__slide">
+      <div class="swiper-slide portfolio__slide" data-toggle="modal">
         <div class="portfolio__slide-3">
           <div class="portfolio__slide-loop"></div>
         </div>
       </div>
 
-      <div class="swiper-slide portfolio__slide">
+      <div class="swiper-slide portfolio__slide" data-toggle="modal">
         <div class="portfolio__slide-3">
           <div class="portfolio__slide-loop"></div>
         </div>
       </div>
 
-      <div class="swiper-slide portfolio__slide">
+      <div class="swiper-slide portfolio__slide" data-toggle="modal">
         <div class="portfolio__slide-3">
           <div class="portfolio__slide-loop"></div>
         </div>
@@ -588,7 +588,7 @@
                   <label for="userName" class="contact-form__label">
                     Name
                   </label>
-                  <input type="text" placeholder="Name and Surname" class="contact-form__input" id="userName">
+                  <input type="text" placeholder="Name and Surname" class="contact-form__input" name="userName" id="userName">
                 </div>
                 <!-- /.contact-form__wrap-input -->
       
@@ -596,7 +596,7 @@
                   <label for="userPhone" class="contact-form__label">
                     Phone
                   </label>
-                  <input type="text" placeholder="Phone number" class="contact-form__input" id="userPhone">
+                  <input type="tel" placeholder="Phone number" class="contact-form__input" name="userPhone" id="userPhone">
                 </div>
                 <!-- /.contact-form__wrap-input -->
     
@@ -604,7 +604,7 @@
                 <label for="userEmail" class="contact-form__label">
                   Email
                 </label>
-                <input type="email" placeholder="Your email" class="contact-form__input" id="userEmail">
+                <input type="email" placeholder="Your email" class="contact-form__input" name="userEmail" id="userEmail">
               </div>
               <!-- /.contact-form__wrap-input -->
     
@@ -612,7 +612,7 @@
                 <label for="userEmail" class="contact-form__label">
                   Object
                 </label>
-                <input type="text" placeholder="Phone number" class="contact-form__input" id="userEmail">
+                <input type="text" placeholder="Phone number" class="contact-form__input" name="userObject" id="userObject">
               </div>
               <!-- /.contact-form__wrap-input -->
   
@@ -620,7 +620,7 @@
               <!-- /.contact-me__left -->
 
               <div class="contact-me__right">
-                <textarea placeholder="Type here Massage..." class="contact-me__right-sms" name="" id="" cols="30" rows="10"></textarea>
+                <textarea placeholder="Type here Massage..." class="contact-me__right-sms" name="userMassage" id="userMassage" cols="30" rows="10"></textarea>
               </div>
               <!-- /.contact-me__right -->
 
@@ -857,6 +857,11 @@
         bulletActiveClass: "swiper-pagination-bullet-active",
       },
     });
+</script>
+
+<script src="js/jquery.validate.min.js">
+</script>
+<script src="js/jquery.mask.min.js">
 </script>
 
 <script src="js/main.js"></script>

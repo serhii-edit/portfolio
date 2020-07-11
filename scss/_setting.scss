@@ -21,3 +21,17 @@ a {
 .text-important {
   color: tomato;
 }
+
+.error-form {
+  padding-top: 3px;
+  color: tomato;
+  font-size: 14px;
+}
+
+input.error-form { 
+    border-bottom: 1px solid tomato;
+}
+
+textarea.error-form { 
+  border-bottom: 1px solid tomato;
+}

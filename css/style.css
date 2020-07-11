@@ -330,6 +330,17 @@ a {
 .text-important {
   color: tomato; }
 
+.error-form {
+  padding-top: 3px;
+  color: tomato;
+  font-size: 14px; }
+
+input.error-form {
+  border-bottom: 1px solid tomato; }
+
+textarea.error-form {
+  border-bottom: 1px solid tomato; }
+
 .container {
   margin: 0 auto;
   max-width: 1200px;
@@ -910,6 +921,10 @@ a {
 .contact-form__input:focus {
   border: none;
   border: 1px solid #02cfb4; }
+
+.contact-me__right {
+  display: flex;
+  flex-direction: column; }
 
 .contact-me__right-sms {
   width: 350px;
