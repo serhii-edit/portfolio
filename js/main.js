@@ -84,6 +84,23 @@ $(".contact-form").validate({
         email: "Type in format: name@domain.com",
       },
   },
+  submitHandler: function(form) {
+    $.ajax({
+      // $(form).ajaxSubmit();
+      type: "POST",
+      url: "send.php",
+      data: $(form).serialize(),
+      // dataType: "dataType",
+      success: function (response) {
+        console.log("Good", + response)
+        alert("Submited Succesful");
+        $(form)[0].reset();
+      },
+      error: function (response) {
+        alert("The form does't work please call: +1 (828) 380-5185, to us or try send form later" + response)
+      }
+    });
+  }
 });
 
 // mask for phone
