@@ -48,11 +48,12 @@ function buildCSS(done) {
 }
 
 function builJS(done) {
-  src(["js/**.js", "!js/**.min.js"])
+  src(["js/**.js", "!js/**.min.js", "!js/**-min.js"])
     .pipe(minify())
     .pipe(dest("dist/js/"));
 
     src("js/**.min.js").pipe(dest("dist/js/"));
+    src("js/**-min.js").pipe(dest("dist/js/"));
   done();
 }
 
