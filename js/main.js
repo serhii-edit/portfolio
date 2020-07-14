@@ -2,6 +2,7 @@
 $(document).ready(function () {
 
   var modal = document.querySelector(".modal");
+  var wantsitef = document.querySelector(".btn-green-f");
   var modalBtn = document.querySelector(".portfolio__slide-1");
   var modalClose = document.querySelector(".modal__close");
 
@@ -15,6 +16,10 @@ $(document).ready(function () {
 
   modal.onclick = function (event) {
     if (event.target == modal)
+    modal.style.visibility="hidden";
+  };
+
+  wantsitef.onclick = function ()  {
     modal.style.visibility="hidden";
   };
 
@@ -157,7 +162,7 @@ $(".scrollup").fadeOut();
   // };
 
   var modala = document.querySelector(".modala");
-
+  var wantsitea = document.querySelector(".btn-green-a");
   var modalBtna = document.querySelector(".portfolio__slide-2");
   var modalClosea = document.querySelector(".modal__closea");
 
@@ -174,6 +179,10 @@ $(".scrollup").fadeOut();
     modala.style.visibility="hidden";
   };
 
+  wantsitea.onclick = function ()  {
+    modala.style.visibility="hidden";
+  };
+
   // window.onkeydown = function(event) {
   //   if (event.which == 27) {
   //     modala.style.visibility="hidden";
@@ -185,7 +194,7 @@ $(".scrollup").fadeOut();
 
   // modal B
   var modalb = document.querySelector(".modalb");
-
+  var wantsiteb = document.querySelector(".btn-green-b");
   var modalBtnb = document.querySelector(".portfolio__slide-3");
   var modalCloseb = document.querySelector(".modal__closeb");
 
@@ -201,11 +210,15 @@ $(".scrollup").fadeOut();
     if (event.target == modalb)
     modalb.style.visibility="hidden";
   };
+
+  wantsiteb.onclick = function () {
+    modalb.style.visibility="hidden";
+  };
   // modal end (B)
 
   // modal C
   var modalc = document.querySelector(".modalc");
-
+  var wantsitec = document.querySelector(".btn-green-c");
   var modalBtnc = document.querySelector(".portfolio__slide-4");
   var modalClosec = document.querySelector(".modal__closec");
 
@@ -219,6 +232,9 @@ $(".scrollup").fadeOut();
 
   modalc.onclick = function (event) {
     if (event.target == modalc)
+    modalc.style.visibility="hidden";
+  };
+  wantsitec.onclick = function () {
     modalc.style.visibility="hidden";
   };
   // modal end (C)

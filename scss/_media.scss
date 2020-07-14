@@ -462,10 +462,10 @@
   .modal__left-wrap-img {
     width: 300px;
   }
-  .modal__left-block-little-img {
-    width: 83px;
-    height: 70px;
-  }
+  // .modal__left-block-little-img {
+  //   width: 83px;
+  //   height: 70px;
+  // }
 }
 
 @media screen and (max-width: 920px) {
@@ -482,7 +482,7 @@
     align-items: center;
   }
   .modal__left-wrap-img {
-    margin-right: 20px;
+    // margin-right: 20px;
     margin-bottom: 0;
     height: 200px;
     width: 250px;
@@ -492,18 +492,18 @@
     margin-right: 0;
     margin-bottom: 20px;
   }
-  .modal__left-wrap-little-img {
-    flex-direction: column;
-  }
-  .modal__left-block-little-img {
-    margin-right: 0;
-    margin-bottom: 20px;
-    height: 53px;
-    width: 63px;
-  }
-  .modal__left-block-little-img:last-child {
-    margin-bottom: 0;
-  }
+  // .modal__left-wrap-little-img {
+  //   flex-direction: column;
+  // }
+  // .modal__left-block-little-img {
+  //   margin-right: 0;
+  //   margin-bottom: 20px;
+  //   height: 53px;
+  //   width: 63px;
+  // }
+  // .modal__left-block-little-img:last-child {
+  //   margin-bottom: 0;
+  // }
   .modal-right__content {
     display: flex;
     flex-direction: column;
@@ -546,6 +546,27 @@
     border-radius: 50%;
     padding: 6px 5px 3px 6px;
   }
+  .modal__closea {
+    right: -2%;
+    top: -20px;
+    background: rgba(32, 12, 12, 0.81);
+    border-radius: 50%;
+    padding: 6px 5px 3px 6px;
+  }
+  .modal__closeb {
+    right: -2%;
+    top: -20px;
+    background: rgba(32, 12, 12, 0.81);
+    border-radius: 50%;
+    padding: 6px 5px 3px 6px;
+  }
+  .modal__closec {
+    right: -2%;
+    top: -20px;
+    background: rgba(32, 12, 12, 0.81);
+    border-radius: 50%;
+    padding: 6px 5px 3px 6px;
+  }
   .modal-right__name {
     font-size: 22px;
   }
@@ -553,10 +574,10 @@
     width: 230px;
     height: 180px;
   }
-  .modal__left-block-little-img {
-    width: 50px;
-    height: 46px;
-  }
+  // .modal__left-block-little-img {
+  //   width: 50px;
+  //   height: 46px;
+  // }
   .modal-right__subtitle {
     max-width: 295px;
   }
@@ -567,10 +588,10 @@
     width: 190px;
     height: 155px;
   }
-  .modal__left-block-little-img {
-    width: 38px;
-    height: 38px;
-  }
+  // .modal__left-block-little-img {
+  //   width: 38px;
+  //   height: 38px;
+  // }
   .modal-right__subtitle {
     max-width: 245px;
   }
