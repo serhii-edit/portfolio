@@ -1,38 +1,22 @@
 
+$(document).ready(function () {
+
   var modal = document.querySelector(".modal");
-  var modald = document.querySelector(".modal__dialog")
-  var modalBtn = document.querySelectorAll("[data-toggle=modal]");
-  const modalClose = document.querySelector(".modal__close");
-  const toggleModal = () => {
-    modal.classList.toggle("modal-visible");
+  var modalBtn = document.querySelector(".portfolio__slide-1");
+  var modalClose = document.querySelector(".modal__close");
+
+  modalBtn.onclick = function () {
+    modal.style.visibility="visible";
   };
 
-$(document).ready(function () {
-  
-  modalBtn.forEach(element => {
-    element.addEventListener("click", toggleModal);
-      console.log("click");
-    });
+  modalClose.onclick = function ()  {
+    modal.style.visibility="hidden";
+  };
 
-modalClose.addEventListener("click", toggleModal);
-
-window.onclick = function (event) {
-  if (event.target == modal) {
-  toggleModal();
-  }
-};
-
-// modal.onkeydown = function(event) {
-//   if (event.which == 27) {
-//     toggleModal();
-//   }
-// };
-
-// modal.addEventListener("onkeydown == 27", toggleModal);
-
-
-// xxxxxxxxxxx
-
+  modal.onclick = function (event) {
+    if (event.target == modal)
+    modal.style.visibility="hidden";
+  };
 
 // validate & mask
 
@@ -149,6 +133,94 @@ $(".scrollup").fadeOut();
     }
   });
 
+  // var modal = document.querySelector(".modal");
+  // var modalBtn = document.querySelector(".portfolio__slide-1");
+  // var modalClose = document.querySelector(".modal__close");
 
+  // modalBtn.onclick = function () {
+  //   modal.style.visibility="visible";
+  // };
+
+  // modalClose.onclick = function ()  {
+  //   modal.style.visibility="hidden";
+  // };
+
+  // window.onclick = function (event) {
+  //   if (event.target == modal)
+  //   modal.style.visibility="hidden";
+  // };
+
+  // window.onkeydown = function(event) {
+  //   if (event.which == 27) {
+  //     modala.style.visibility="hidden";
+  //   }
+  // };
+
+  var modala = document.querySelector(".modala");
+
+  var modalBtna = document.querySelector(".portfolio__slide-2");
+  var modalClosea = document.querySelector(".modal__closea");
+
+  modalBtna.onclick = function () {
+    modala.style.visibility="visible";
+  };
+
+  modalClosea.onclick = function ()  {
+    modala.style.visibility="hidden";
+  };
+
+  modala.onclick = function (event) {
+    if (event.target == modala)
+    modala.style.visibility="hidden";
+  };
+
+  // window.onkeydown = function(event) {
+  //   if (event.which == 27) {
+  //     modala.style.visibility="hidden";
+  //   }
+  // };
+
+
+  // xxxx
+
+  // modal B
+  var modalb = document.querySelector(".modalb");
+
+  var modalBtnb = document.querySelector(".portfolio__slide-3");
+  var modalCloseb = document.querySelector(".modal__closeb");
+
+  modalBtnb.onclick = function () {
+    modalb.style.visibility="visible";
+  };
+
+  modalCloseb.onclick = function ()  {
+    modalb.style.visibility="hidden";
+  };
+
+  modalb.onclick = function (event) {
+    if (event.target == modalb)
+    modalb.style.visibility="hidden";
+  };
+  // modal end (B)
+
+  // modal C
+  var modalc = document.querySelector(".modalc");
+
+  var modalBtnc = document.querySelector(".portfolio__slide-4");
+  var modalClosec = document.querySelector(".modal__closec");
+
+  modalBtnc.onclick = function () {
+    modalc.style.visibility="visible";
+  };
+
+  modalClosec.onclick = function ()  {
+    modalc.style.visibility="hidden";
+  };
+
+  modalc.onclick = function (event) {
+    if (event.target == modalc)
+    modalc.style.visibility="hidden";
+  };
+  // modal end (C)
 
 });
