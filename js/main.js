@@ -1,5 +1,7 @@
-var modal = document.querySelector(".modal");
-  // var modald = document.querySelector(".modal__dialog");
+
+$(document).ready(function () {
+
+  var modal = document.querySelector(".modal");
   var modalBtn = document.querySelector(".portfolio__slide-1");
   var modalClose = document.querySelector(".modal__close");
 
@@ -15,14 +17,6 @@ var modal = document.querySelector(".modal");
     if (event.target == modal)
     modal.style.visibility="hidden";
   };
-
-  // modald.onkeydown = function(event) {
-  //   if (event.which == 27) {
-  //     modala.style.visibility="hidden";
-  //   }
-  // };
-
-$(document).ready(function () {
 
 // validate & mask
 
@@ -188,5 +182,45 @@ $(".scrollup").fadeOut();
 
 
   // xxxx
+
+  // modal B
+  var modalb = document.querySelector(".modalb");
+
+  var modalBtnb = document.querySelector(".portfolio__slide-3");
+  var modalCloseb = document.querySelector(".modal__closeb");
+
+  modalBtnb.onclick = function () {
+    modalb.style.visibility="visible";
+  };
+
+  modalCloseb.onclick = function ()  {
+    modalb.style.visibility="hidden";
+  };
+
+  modalb.onclick = function (event) {
+    if (event.target == modalb)
+    modalb.style.visibility="hidden";
+  };
+  // modal end (B)
+
+  // modal C
+  var modalc = document.querySelector(".modalc");
+
+  var modalBtnc = document.querySelector(".portfolio__slide-4");
+  var modalClosec = document.querySelector(".modal__closec");
+
+  modalBtnc.onclick = function () {
+    modalc.style.visibility="visible";
+  };
+
+  modalClosec.onclick = function ()  {
+    modalc.style.visibility="hidden";
+  };
+
+  modalc.onclick = function (event) {
+    if (event.target == modalc)
+    modalc.style.visibility="hidden";
+  };
+  // modal end (C)
 
 });
